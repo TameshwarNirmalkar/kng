@@ -1,0 +1,28 @@
+<ng-container *ngIf="validToken">
+  <div class="p-grid p-col-3">
+    <div class="p-justify-center p-align-center">
+      <div class="card text-center">
+        <div class="card-header">
+          <span>Please validate the OTP send to admin mobile number.</span>
+        </div>
+        <div class="card-body">
+          <div>
+            <app-countdown [startTime]="startValue" [token]="paylods.token" msgLabel="Otp will be expired on"></app-countdown>
+          </div>
+          <div class="pt-3 pb-3">
+            <p-inputMask [(ngModel)]="otp" mask="99999" styleClass="otp-cls" placeholder="_____" (keyup.enter)="validateOtp()"></p-inputMask>
+          </div>
+
+          <div>
+            <button type="button" pButton icon="pi pi-check" (click)="validateOtp()" label="Validate Otp"
+              [disabled]="!otp" class="btn-cls w-100 p-2"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+<app-spinner [isLoading]="!validToken"></app-spinner>
+
+<p-toast key="myKey1"></p-toast>

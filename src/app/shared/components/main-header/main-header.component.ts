@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { AuthService } from '@srk/core';
+import { AuthService } from '@kng/core';
 import { untilComponentDestroyed } from '@w11k/ngx-componentdestroyed';
 import { formatDate } from '@angular/common';
 

@@ -1,0 +1,27 @@
+:host ::ng-deep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  .ui-inputtext {
+    // font-family: 'Black Ops One', cursive;
+    font-family: 'Poiret One', cursive;
+    width: 100%;
+    letter-spacing: 20px;
+    font-size: 3em;
+    text-align: center;
+    padding: .2em;
+  }
+
+  .btn-cls {
+    background-color: #c4e4f1;
+    border: 1px solid rgba(67, 68, 83, 0.5);
+    color: #333333;
+    font-size: 11px;
+
+    .ui-button-icon-left {
+      margin-top: -0.4em;
+    }
+  }
+
+}

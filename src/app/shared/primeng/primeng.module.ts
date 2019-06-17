@@ -10,7 +10,6 @@ import { DialogModule } from 'primeng/dialog';
 import { DropdownModule } from 'primeng/dropdown';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { SelectButtonModule } from 'primeng/selectbutton';
-import { DataTableModule } from 'primeng/datatable';
 import { MultiSelectModule } from 'primeng/multiselect';
 import { GrowlModule } from 'primeng/growl';
 import { CheckboxModule } from 'primeng/checkbox';
@@ -47,7 +46,7 @@ import { BlockUIModule } from 'primeng/blockui';
 
 const PRIMENG_COMPONENTS = [
   InputTextModule, InputTextareaModule, PanelModule, PasswordModule, ButtonModule, DialogModule,
-  DropdownModule, RadioButtonModule, SelectButtonModule, DataTableModule, MultiSelectModule, GrowlModule, CheckboxModule,
+  DropdownModule, RadioButtonModule, SelectButtonModule, MultiSelectModule, GrowlModule, CheckboxModule,
   OverlayPanelModule, CalendarModule, AccordionModule, ConfirmDialogModule, InputSwitchModule, TooltipModule, ListboxModule,
   GalleriaModule, ProgressBarModule, DataListModule, ProgressSpinnerModule,
   ChipsModule, TableModule, ToggleButtonModule, KeyFilterModule, AutoCompleteModule, CarouselModule, TreeTableModule, ScrollPanelModule,

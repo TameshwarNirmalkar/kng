@@ -1,0 +1,10 @@
+:host ::ng-deep {
+  .toast-message {
+    margin: 0px;
+    position: fixed;
+    width: 30%;
+    z-index: 5;
+    right: 0px;
+    top: 0px;
+  }
+}

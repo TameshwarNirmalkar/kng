@@ -1,0 +1,8 @@
+{
+    "envName": "DevAzure",
+    "CONTROL_CENTER": {
+      "host": "http://13.71.26.73:3030/controlcenter",
+      "version": "v1"
+    }
+  }
+  
