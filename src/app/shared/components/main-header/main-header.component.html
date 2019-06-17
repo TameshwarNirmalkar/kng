@@ -1,0 +1,10 @@
+<header class="p-col-12 border-bottom header__padd">
+  <section class="p-grid p-align-center p-nogutter">
+    <span class="p-col-fixed"><img src="./assets/images/header-logo.png" /></span>
+    <span class="d-flex p-col p-justify-end p-align-center">
+      <app-countdown [startTime]="startValue" msgLabel="time remains"></app-countdown>
+      <strong class="pr-2 text-uppercase">{{ loggedUserName }}</strong>
+      <em class="fas fa-power-off text-danger" (click)="logout()" role="button"></em>
+    </span>
+  </section>
+</header>
